@@ -1,5 +1,5 @@
 vec4 open_color(vec3 coords_geo, vec3 size_geo) {
-    float progress = 1.0 - niri_clamped_progress;
+    float progress = 1.0 - niri_progress;
     float max_angle = radians(90.0);
     float angle = progress * max_angle;
     float sin_theta = sin(angle);
